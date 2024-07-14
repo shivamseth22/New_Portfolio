@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Track */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7e22ce;
+    border-radius: 6px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #191927;
+  }
+  
+  /* Handle on drag */
+  ::-webkit-scrollbar-thumb:active {
+    background: #333;
+  }
