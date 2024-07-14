@@ -14,7 +14,7 @@ import portfoliophone from "../assets/projectimg/portfoliophone.png"
 import { fire, react, tailwind } from '../images/image.js';
 
 
-<<<<<<< HEAD
+
 const projects = {
   Artifex: {
     profile: artdp,
@@ -44,37 +44,8 @@ const projects = {
     mobile: portfoliophone
   }
 };
-=======
-  const projects = {
-    Artifex: {
-      profile: artdp, 
-      image: artifex, 
-      discr: "This project is an innovative e-commerce platform showcases and sells custom sketches and artworks. Customers can view my portfolio, order custom sketches, and enjoy secure payments and reliable delivery.",
-      link:"https://artifexpiyush.vercel.app/",
-      gitlink:"https://github.com/PiyushDev01/Artifex-v2",
-      tech:[react, tailwind, fire],
-      mobile: artifexphone
-    },
-    Uifry: {
-      profile: uifrydp, 
-      image: uifryimg, 
-      discr: "UIFry is a UI/UX project built with React and Tailwind CSS, exploring creative design solutions and interactive components. This project showcases my ability to build visually engaging and user-friendly interfaces using modern web technologies.",
-      link:"https://uifrypiyush.vercel.app/",
-      gitlink:"https://github.com/PiyushDev01/uiFry-v1",
-      tech:[react, tailwind],
-      mobile: uifryphone
-    },
-    Portfolio: {
-      profile: portdp, 
-      image: portfolio, 
-      discr: "This portfolio website showcases my Web development skills using React, Tailwind, and Firebase, featuring diverse projects and a focus on user-centric design.",
-      link:"https://piyushdev.me/",
-      gitlink:"https://github.com/PiyushDev01/Portfolio",
-      tech:[react, tailwind],
-      mobile: portfoliophone
-    }
-  };
->>>>>>> e999381e6e8c563d1b61e4758ddaba2fdee85003
+
+
 
 function Project() {
   return (
